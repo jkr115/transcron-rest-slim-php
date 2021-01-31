@@ -97,6 +97,11 @@ POST | `/transcron/public/api/vinculacion/nuevo`
 PUT | `/transcron/public/api/vinculacion/modificar/{id}` 
 DELETE | `/transcron/public/api/vinculacion/eliminar/{id}`
 
+*Vehículos con su empresa, representante legal y número de conductores. Sólo se obtienen los vehículos que tienen más de 2 conductores vinculados*
+Método HTTP | URL 
+--- | --- 
+GET | `/transcron/public/api/vehiculogeneral` 
+
 ## :inbox_tray: DESCARGUE EL CLIENTE JAVA REST
 
 Descargue el [ejecutable .jar y el archivo .properties](https://github.com/jkr115/transcron-java-rest-client/releases/tag/0.1)  y ubíquelos en un mismo directorio. Si necesita cambiar la url base del servidor edite el archivo config.properties y ejecute:
@@ -108,8 +113,4 @@ java -jar transcron-rest-client.jar
 Visite el repositorio para ver el código fuente:
 
 - [TRANSCRON - REST CLIENT (JAVA) ☕](https://github.com/jkr115/transcron-java-rest-client)
-
-
-
-
 
