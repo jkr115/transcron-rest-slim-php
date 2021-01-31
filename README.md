@@ -23,7 +23,7 @@ composer install
 ```
 #### Paso 2
 
-Crear la base de datos y el usuario para la aplicación.
+Cree la base de datos y el usuario para la aplicación.
 Si cambia las credenciales recuerde también hacerlo en el archivo .env.
 
 ```bash
