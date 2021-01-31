@@ -42,6 +42,61 @@ Enter password:
 ```
 Ingrese la contraseña del usuario creado anteriormente.
 
+## :books: DOCUMENTACIÓN
+
+### BASE DE DATOS
+
+Diagrama entidad relación:
+
+![Diagrama entidad relación](https://github.com/jkr115/transcron-rest-slim-php/blob/main/database/transcron-er-diagram.png)
+
+### ENDPOINTS
+
+*Empresa*
+Método HTTP | URL 
+--- | --- 
+GET | `/transcron/public/api/empresa` 
+GET | `/transcron/public/api/empresa/{id}` 
+POST | `/transcron/public/api/empresa/nuevo` 
+PUT | `/transcron/public/api/empresa/modificar/{id}` 
+DELETE | `/transcron/public/api/empresa/eliminar/{id}`
+
+*Representante Legal*
+Método HTTP | URL 
+--- | --- 
+GET | `/transcron/public/api/representante` 
+GET | `/transcron/public/api/representante/{id}` 
+POST | `/transcron/public/api/representante/nuevo` 
+PUT | `/transcron/public/api/representante/modificar/{id}` 
+DELETE | `/transcron/public/api/representante/eliminar/{id}` 
+
+*Vehículo*
+Método HTTP | URL 
+--- | --- 
+GET | `/transcron/public/api/vehiculo` 
+GET | `/transcron/public/api/vehiculo/{id}` 
+POST | `/transcron/public/api/vehiculo/nuevo` 
+PUT | `/transcron/public/api/vehiculo/modificar/{id}` 
+DELETE | `/transcron/public/api/vehiculo/eliminar/{id}` 
+
+*Conductor*
+Método HTTP | URL 
+--- | --- 
+GET | `/transcron/public/api/conductor` 
+GET | `/transcron/public/api/conductor/{id}` 
+POST | `/transcron/public/api/conductor/nuevo` 
+PUT | `/transcron/public/api/conductor/modificar/{id}` 
+DELETE | `/transcron/public/api/conductor/eliminar/{id}` 
+
+*Vinculación*
+Método HTTP | URL 
+--- | --- 
+GET | `/transcron/public/api/vinculacion` 
+GET | `/transcron/public/api/vinculacion/{id}` 
+POST | `/transcron/public/api/vinculacion/nuevo` 
+PUT | `/transcron/public/api/vinculacion/modificar/{id}` 
+DELETE | `/transcron/public/api/vinculacion/eliminar/{id}`
+
 ## :inbox_tray: DESCARGUE EL CLIENTE JAVA REST
 
 Descargue el [ejecutable .jar y el archivo .properties](https://github.com/jkr115/transcron-java-rest-client/releases/tag/0.1)  y ubíquelos en un mismo directorio. Si necesita cambiar la url base del servidor edite el archivo config.properties y ejecute:
