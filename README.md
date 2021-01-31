@@ -47,7 +47,7 @@ Ingrese la contraseña del usuario creado anteriormente.
 Descargue el [ejecutable .jar y el archivo .properties](https://github.com/jkr115/transcron-java-rest-client/releases/tag/0.1)  y ubíquelos en un mismo directorio. Si necesita cambiar la url base del servidor edite el archivo config.properties y ejecute:
 
 ```bash
-$ java -jar transcron-rest-client.jar
+java -jar transcron-rest-client.jar
 ```
 
 Visite el repositorio para ver el código fuente:
